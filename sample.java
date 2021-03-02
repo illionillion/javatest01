@@ -17,6 +17,7 @@ public class sample {
 		Random rnd = new Random();
 		for(int i=0;i<10;i++) {
 			int val = (int)(rnd.nextDouble() * text.length);
+			val=(int)(text.length * Math.random())+1;
 			System.out.println(text[val]);
 			if(val%2!=1){
 				int val2=(int)(rnd.nextDouble()*text.length);
