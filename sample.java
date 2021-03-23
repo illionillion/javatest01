@@ -11,6 +11,7 @@ public class sample {
 //		String text="hello";
 //		System.out.println(text);
 		String[] text= {"大吉","中吉","小吉","末吉","吉","凶","大凶","バカ"};
+		text[7]="アホ";
 //		System.out.println(text[0]);
 //		Random rnd = new Random();
 //		int iValue3 = rnd.nextInt(100);
